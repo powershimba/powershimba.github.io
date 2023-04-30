@@ -8,47 +8,60 @@
   
   <body>
     <script src="js/background.js"></script>
-
     <div class="grid">
-      <div class="login box">
-          <form class="hidden" id="login-form">
-              <div class="speech-bubble box">
-                  <h1>Hello, what is your name?</h1>
-              </div>
-              <input
-                  class = "inputheight inputwidth"
-                  required
-                  type="text"
-                  placeholder="Enter your name"
-              />
-              <input class="inputheight" type="submit" value="Log In"/>
-          </form>
-          <h1 id="greeting" class="hidden"></h1>
-      </div>
 
-      <div class="clock box">
+      <div class="login box content">
+        <form class="hidden" id="login-form">
+          <h1>Hello, what is your name?</h1>
+          <input
+              class="formShadow"
+              required
+              type="text"
+              placeholder="Enter your name"
+          />
+          <input class="formShadow" type="submit" value="Log In"/>
+        </form>
+        <h1 class="hidden" id="greeting"></h1>
+      </div>
+          
+
+      <div class="clock box content">
         <h2 id="days"> 00 / 00 </h2>
         <h2 id="clock"> 00: 00: 00 </h2>
       </div>
 
-      <div class="weather box" id="weather">
+      <div class="weather box content" id="weather">
         <h2></h2>
         <h2></h2>
       </div>
 
-      <div class="todo box">
+      <div class="todo top content">
         <form id="todo-form">
-          <h2> To Do List</h2>
-          <input class = "inputheight inputwidth" type="text" placeholder="Write things to do and Press Enter" required />
+          <h1> To Do List📝</h1>
+          <input 
+            class="formAlgolia" 
+            type="text" 
+            placeholder="Write things to do and Press Enter" 
+            required />
         </form>
         <ul id="todo-list"></ul>
       </div>
+
+      <form class="content" id="btFather">
+        <input
+          id="bgButton"
+          type="button" 
+          value="Change Bear Friend">
+      </form>
+  
     </div>
+
 
     <script src="js/login.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/todolist.js"></script>
     <script src="js/main.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/buttonBgChange.js"></script>
   </body>
 </html>

@@ -5,7 +5,7 @@ function getDate() {
     const date = new Date();
     const month = String(date.getMonth()).padStart(2, "0");
     const day = String(date.getDate()).padStart(2, "0");
-    days.innerText = `Today is 
+    days.innerText = `🗓️Today is 
     ${month} / ${day}`;
 }
 
@@ -14,7 +14,7 @@ function getClock() {
     const hours = String(date.getHours()).padStart(2, "0");
     const minutes = String(date.getMinutes()).padStart(2, "0");
     const seconds = String(date.getSeconds()).padStart(2,"0");
-    clock.innerText = `Now time is
+    clock.innerText = `⏰Now time is
     ${hours}:${minutes}:${seconds}`;
 }
 

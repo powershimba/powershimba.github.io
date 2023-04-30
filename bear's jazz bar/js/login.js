@@ -3,6 +3,7 @@ const USERNAME_KEY = "username";
 
 const loginForm = document.querySelector("#login-form");
 const loginInput = document.querySelector("#login-form input");
+const greeting = document.querySelector("#greeting");
 
 function onLoginSubmit(event){
     event.preventDefault();
@@ -14,7 +15,7 @@ function onLoginSubmit(event){
 
 function paintGreetings(username) {
     greeting.innerText = `Welcome in ${username}!
-    Do you want some drink?`;
+    Do you want some drink?🍹`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 

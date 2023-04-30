@@ -10,9 +10,9 @@ function onGeoOk(position) {
     .then((response) => response.json())
     .then((data) => {
       city.innerText = `You are in 
-      ${data.name}`;
-      weather.innerText = `Today is ${data.weather[0].main}
-       ${data.main.temp}°C`;
+      ${data.name}🗼`;
+      weather.innerText = `⛅Today is ${data.weather[0].main}
+      🌡️${data.main.temp}°C`;
     });
 }
 
