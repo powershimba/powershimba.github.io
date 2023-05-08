@@ -1,0 +1,34 @@
+.badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+
+.badge--small {
+    width: 10px;
+    height: 10px;
+}
+
+.badge--notification {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.badge--notification-small {
+    position: absolute;
+    left: 30px;
+    bottom: 25px;
+}
+
+.badge--notification-find {
+    position: absolute;
+    left: 93px;
+    bottom: 19px;
+}

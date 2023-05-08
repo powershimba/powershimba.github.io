@@ -3,17 +3,22 @@
 @import "variables.css";
 
 /*components*/
+@import "components/badge.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
-@import "components/friends.css";
 @import "components/user-compoments.css";
 
 /*screens*/
+@import "screens/friends.css";
 @import "screens/login.css";
+@import "screens/find.css";
 
 body {
     font-family: "Open Sans", sans-serif;
     color: rgb(50, 50, 50)
 }
 
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
