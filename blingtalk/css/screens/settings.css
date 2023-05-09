@@ -1,0 +1,27 @@
+
+.settings-list {
+    margin-left: -30px;
+}
+.settings-setting {
+    padding: 20px 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.settings-setting:last-child{
+    justify-content: space-between;
+}
+
+.settings-setting:last-child 
+.settings-setting__column:last-child 
+span{
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.settings-setting i {
+    margin-right: 20px;;
+    font-size: 22px;
+}

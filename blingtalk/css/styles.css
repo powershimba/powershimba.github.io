@@ -9,13 +9,15 @@
 @import "components/screen-header.css";
 @import "components/user-compoments.css";
 @import "components/icon-row.css";
-@import "components/alt-screen-header.css"
+@import "components/alt-screen-header.css";
 
 /*screens*/
 @import "screens/friends.css";
 @import "screens/login.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
     font-family: "Open Sans", sans-serif;
