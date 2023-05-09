@@ -15,3 +15,20 @@
     position: relative;
     color: rgb(75, 75, 75);
 }
+
+.badge--notification {
+    animation: notificationAnimation 2s ease-in-out infinite;
+    will-change: transform;
+}
+
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: none;
+    }
+}
