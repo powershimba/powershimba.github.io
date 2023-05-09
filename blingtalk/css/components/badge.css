@@ -27,8 +27,22 @@
     bottom: 25px;
 }
 
-.badge--notification-find {
+.badge--notification-friend,
+.badge--notification-more {
+    position: absolute;
+    left: 140px;
+    bottom: 19px;
+}
+
+.badge--notification-find
+ {
     position: absolute;
     left: 93px;
+    bottom: 19px;
+}
+
+.badge--notification-chat {
+    position: absolute;
+    left: 195px;
     bottom: 19px;
 }
