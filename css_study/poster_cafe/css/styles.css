@@ -18,7 +18,7 @@ body {
     color: var(--palette-white);
     position: relative;
 }
-
+    
 .bottom-strip {
     border: var(--border-white);
     border-top: none;
